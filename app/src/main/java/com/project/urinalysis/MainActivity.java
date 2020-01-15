@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
                                 "Make sure you are connected to UA WiFi AP \n" +
                                 "with password: 123456789";
                         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+                        return;
                     }
 
 //                  method that stores data from the response string

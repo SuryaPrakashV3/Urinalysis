@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/iconnobg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -66,10 +66,12 @@
     <TextView
         android:id="@+id/instructions"
         android:layout_width="match_parent"
-        android:layout_height="194dp"
+        android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
+        android:background="#94000000"
+        android:padding="10px"
         android:text="Connect to WiFi AP:\nSSID: UA\nPSWD: 123456789\nEnter personal details after clicking ENTER PATIENT DETAILS buttonPress GET READINGS to fetch and store data.\nNOTE: The app waits for 8 seconds to get data from NodeMCU.\nView readings stored by pressing VIEW READINGS button"
         android:textColor="@color/text_sub"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,6 +79,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.97" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
