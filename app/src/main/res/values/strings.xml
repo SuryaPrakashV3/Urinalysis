@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Urinalysis</string>
+    <string name="NA">______</string>
+    <string name="negative">-1</string>
+</resources>
